@@ -41,5 +41,3 @@ COPY skills_job_dim
 FROM 'C:\Users\Aryan Patel\Desktop\SQL_project_data_job_analysis\csv_files\skills_job_dim.csv'
 WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
-SELECT * FROM skills_job_dim
-LIMIT 10;  
